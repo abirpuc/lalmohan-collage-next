@@ -21,7 +21,7 @@ export default function NavContainer({ menuList, subMenu }) {
                                                 <li className="flex flex-col justify-start items-start px-4 py-2">
                                                     {
                                                         subMenu[menu.menu_id].map(submenu =>
-                                                            <Link key={submenu.id} href="/subroutedata/"
+                                                            <Link key={submenu.id} href={`info/${submenu.sub_route}`}
                                                                 className="hover:text-white py-2 w-full px-2 rounded-md hover:bg-[#00b3b3] ease-in duration-300"
                                                             >{submenu.submenu_label}</Link>)
                                                     }

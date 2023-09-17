@@ -7,7 +7,7 @@ import { Inter } from 'next/font/google'
 import Image from 'next/image'
 import { getData } from './api/getData'
 import bg from '../../public/background-img.png'
-import LatestNotice from './(home)/componets/LatestNotice'
+import LatestNotice from './home/componets/LatestNotice'
 import NaVBar from './component/shared/Navbar/NaVBar'
 import Footer from './component/shared/Footer/Footer'
 const inter = Inter({ subsets: ['latin'] })
